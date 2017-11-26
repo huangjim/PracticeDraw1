@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Path;
 import android.graphics.RectF;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
@@ -14,6 +15,7 @@ public class Practice11PieChartView extends View {
     private  RectF mRectF2;
     public Paint mPaint;
     public RectF mRectF;
+    private Path mPath=new Path();
 
     public Practice11PieChartView(Context context) {
         super(context);
